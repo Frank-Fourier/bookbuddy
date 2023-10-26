@@ -28,6 +28,8 @@ import {
     const decoder = new TextDecoder();
   
     let counter = 0;
+
+    console.log(process.env.OPENAI_API_KEY)
   
     const res = await fetch("https://api.openai.com/v1/chat/completions", {
       headers: {

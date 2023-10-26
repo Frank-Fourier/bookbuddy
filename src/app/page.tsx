@@ -5,10 +5,10 @@ import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
 
 const navigation = [
-  { name: 'Fantasy', href: '#' },
-  { name: 'Mystery', href: '#' },
-  { name: 'Returns', href: '#' },
-  { name: 'About us', href: '#' },
+  { name: "Perchè l' AI?", href: '#' },
+  { name: 'Prodotti', href: '#' },
+  { name: 'Servizi', href: '#' },
+  { name: 'Contatti', href: '#' },
 ]
 
 export default function Home() {
@@ -23,8 +23,8 @@ export default function Home() {
             <a href='#' className='-m-1.5 p-1.5'>
               <span className='sr-only'>Your Company</span>
               <img
-                className='h-8 w-auto'
-                src='/book.png'
+                className='h-15 w-auto'
+                src='https://www.gsapp.it/Template/assets/img/logo/logo-icon.png'
                 alt=''
               />
             </a>
@@ -120,29 +120,28 @@ export default function Home() {
           <div className='mx-auto max-w-7xl px-6 lg:px-8'>
             <div className='mx-auto max-w-2xl text-center'>
               <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl'>
-                Your go-to bookstore for fantasy and mystery
+                La tua intelligenza artificiale su GSApp!
               </h1>
               <p className='mt-6 text-lg leading-8 text-gray-600'>
-                Bookbuddy is a small bookstore that specializes in fantasy and mystery
-                books. Find us here in San Diego or order online anytime.
+                {"GSAI è l'intelligenza artificiale che ti aiuta a velocizzare le tue operazioni su GSApp, è il tuo assistente personale a cui puoi chiedere qualunque cosa per scoprire il mondo dei condomini."}
               </p>
               <div className='mt-10 flex items-center justify-center gap-x-6'>
                 <a
                   href='#'
                   className='rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'>
-                  Explore books
+                  Esplora GSApp
                 </a>
                 <a
                   href='#'
                   className='text-sm font-semibold leading-6 text-gray-900'>
-                  Our mission <span aria-hidden='true'>→</span>
+                  La nostra mission <span aria-hidden='true'>→</span>
                 </a>
               </div>
             </div>
             <div className='mt-16 flow-root sm:mt-24'>
               <div className='relative -m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4'>
                 <img
-                  src='/bookstore2.jpg'
+                  src='https://media.cnn.com/api/v1/images/stellar/prod/220905135356-03-manas-bhatia-future-cities-ai.jpg?q=w_1800,c_fill/f_webp'
                   alt='App screenshot'
                   className='rounded-md shadow-2xl ring-1 ring-gray-900/10'
                 />
